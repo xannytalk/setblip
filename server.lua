@@ -1,0 +1,6 @@
+ESX.RegisterServerCallback('rb_hud:getrc', function(source, cb)
+	local xPlayer = ESX.GetPlayerFromId(source)
+    local coins = xPlayer.GetRanzcoins()
+	print(coins)
+	cb(coins)
+end)
