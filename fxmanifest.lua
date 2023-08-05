@@ -1,8 +1,8 @@
 fx_version 'cerulean'
 game 'gta5'
 
-description 'BABA HUD'
-author 'Kortex'
+description 'setblip'
+author 'Mark'
 version '1.0.0'
 
 ui_page "ui/index.html"
